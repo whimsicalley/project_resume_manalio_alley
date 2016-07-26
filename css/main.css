@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: silver;
+}
+
+.container {
+    background-color: white;
+    width: 600px;
+}
+
+article {
+    border-bottom: 1px solid green;
+}
