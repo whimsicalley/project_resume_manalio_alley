@@ -9,3 +9,12 @@ for (i = 0; i < accordion.length; i++) {
         this.nextElementSibling.classList.toggle('show');
     };
 }
+
+//jQuery plugin code for Simple Text Rotator
+$(document).ready(function () {
+    $('.rotate').textrotator({
+        animation: 'fade',
+        separator: ',',
+        speed: 1500
+    });
+});

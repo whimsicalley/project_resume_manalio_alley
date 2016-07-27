@@ -12,6 +12,10 @@ Live Project
 
     I used this page from W3Schools to teach me how to make an accordion. Believe it or not, I've never attempted one before.
 
+2. [jQuery Super Simple Text Rotator](http://www.thepetedesign.com/demos/jquery_super_simple_text_rotator_demo.html)
+
+    I used this jQuery plugin to make my "intro" a little more interesting.
+
 ### Comments
 
 1. Okay, I'm starting to think my make-believe web designer license needs to be revoked because it took me about five hours to figure out how to make a simple accordion. x_x I looked for *hours* for a nice jQuery accordion plugin, but unfortunately, all of the ones (no fewer than seven) I liked and tried to implement wouldn't work no matter what I tried. So, I hope you don't mind this simple one.
