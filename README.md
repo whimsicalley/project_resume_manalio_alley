@@ -16,6 +16,10 @@ Live Project
 
     I used this jQuery plugin to make my "intro" a little more interesting.
 
+3. [Font Awesome](http://fontawesome.io/get-started/)
+
+    Font Awesome was used throughout my site in order to showcase icons rather than image files to make my life easier, and the browser faster.
+
 ### Comments
 
 1. Okay, I'm starting to think my make-believe web designer license needs to be revoked because it took me about five hours to figure out how to make a simple accordion. x_x I looked for *hours* for a nice jQuery accordion plugin, but unfortunately, all of the ones (no fewer than seven) I liked and tried to implement wouldn't work no matter what I tried. So, I hope you don't mind this simple one.
