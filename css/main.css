@@ -14,13 +14,26 @@ body {
 
 .container {
     background-color: #eaeaea;
-    width: 600px;
+    max-width: 700px;
+    width: 100%;
     padding: 20px;
     margin: auto;
 }
 
-article {
-    border-bottom: 1px solid green;
+.right {
+    float: right;
+}
+
+h1 {
+    text-align: center;
+}
+
+.rotate {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
 }
 
 
