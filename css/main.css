@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    background-color: white;
+    background-color: #eaeaea;
     width: 600px;
     padding: 20px;
     margin: auto;
@@ -43,7 +43,7 @@ article {
 
 .content {
     padding: 0 18px;
-    background-color: white;
+    background-color: orange;
     display: none; /* invisible until... */
     opacity: 0;
 }
