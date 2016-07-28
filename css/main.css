@@ -40,11 +40,7 @@ h1 {
     text-align: center;
 }
 
-
-
-
-
-/****** ACCORDION ******/
+/********* ACCORDION *********/
 
 .accordion {
     background-color: #eeeeee;
@@ -70,32 +66,42 @@ h1 {
     opacity: 1;
 }
 
+/********* SKILLS *********/
 
+.skills h3 {
+    text-align: center;
+}
 
+/********* SKILLS BARS *********/
 
 .skills-bar-container {
     width: 100%;
-    background-color: yellow;
     padding: 10px;
 }
 
 .skill-bar {
     margin: 10px;
-    background-color: black;
+    background-color: #6c7a89;
     border-radius: 5px;
 }
 
-/********* Individual Skill Bars Below *********/
+.individual-skill {
+    color: white;
+    letter-spacing: 1px;
+}
+
+/********* Specific Skill Bars Below *********/
 
 #skill-html,
 #skill-css,
 #skill-javascript,
 #skill-jquery,
-#skill-wordpress {
+#skill-wordpress,
+#skill-photoshop,
+#skill-indesign,
+#skill-illustrator {
     border-radius: 5px;
-    background-color: green;
-    width: 40%;
-    padding: 10px;
+    padding: 13px;
 }
 
 #skill-html {
@@ -116,7 +122,7 @@ h1 {
 #skill-css {
     animation: animate-css 6s;
     background-color: red;
-    width: 85%;
+    width: 87%;
 }
 
 @keyframes animate-css {
@@ -124,7 +130,7 @@ h1 {
         width: 5%;
     }
     100% {
-        width: 85%;
+        width: 87%;
     }
 }
 
@@ -170,5 +176,50 @@ h1 {
     }
     100% {
         width: 70%;
+    }
+}
+
+#skill-photoshop {
+    animation: animate-photoshop 6s;
+    background-color: purple;
+    width: 85%;
+}
+
+@keyframes animate-photoshop {
+    0% {
+        width: 5%;
+    }
+    100% {
+        width: 85%;
+    }
+}
+
+#skill-indesign {
+    animation: animate-indesign 6s;
+    background-color: purple;
+    width: 70%;
+}
+
+@keyframes animate-indesign {
+    0% {
+        width: 5%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+#skill-illustrator {
+    animation: animate-illustrator 6s;
+    background-color: purple;
+    width: 80%;
+}
+
+@keyframes animate-illustrator {
+    0% {
+        width: 5%;
+    }
+    100% {
+        width: 80%;
     }
 }
