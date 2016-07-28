@@ -65,3 +65,106 @@ h1 {
     display: block; /* ...clicked on! */
     opacity: 1;
 }
+
+
+
+
+.skills-bar-container {
+    width: 100%;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.skill-bar {
+    margin: 10px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+/********* Individual Skill Bars Below *********/
+
+#skill-html,
+#skill-css,
+#skill-javascript,
+#skill-jquery,
+#skill-wordpress {
+    border-radius: 5px;
+    background-color: green;
+    width: 40%;
+    padding: 10px;
+}
+
+#skill-html {
+    animation: animate-html 6s;
+    background-color: green;
+    width: 95%;
+}
+
+@keyframes animate-html {
+    0% {
+        width: 5%;
+    }
+    100% {
+        width: 95%;
+    }
+}
+
+#skill-css {
+    animation: animate-css 6s;
+    background-color: red;
+    width: 85%;
+}
+
+@keyframes animate-css {
+    0% {
+        width: 5%;
+    }
+    100% {
+        width: 85%;
+    }
+}
+
+#skill-javascript {
+    animation: animate-javascript 6s;
+    background-color: blue;
+    width: 75%;
+}
+
+@keyframes animate-javascript {
+    0% {
+        width: 5%;
+    }
+    100% {
+        width: 75%;
+    }
+}
+
+#skill-jquery {
+    animation: animate-jquery 6s;
+    background-color: orange;
+    width: 72%;
+}
+
+@keyframes animate-jquery {
+    0% {
+        width: 5%;
+    }
+    100% {
+        width: 72%;
+    }
+}
+
+#skill-wordpress {
+    animation: animate-wordpress 6s;
+    background-color: purple;
+    width: 70%;
+}
+
+@keyframes animate-wordpress {
+    0% {
+        width: 5%;
+    }
+    100% {
+        width: 70%;
+    }
+}
