@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: silver;
+    background-color: #37bfc0;
 }
 
 .container {
@@ -18,6 +18,10 @@ body {
     width: 100%;
     padding: 20px;
     margin: auto;
+}
+
+.circular-img {
+    border-radius: 150px;
 }
 
 .right {
@@ -51,12 +55,12 @@ h1 {
 
 .accordion.active,
 .accordion:hover {
-    background-color: #dddddd;
+    background-color: #d1d3d4;
 }
 
 .content {
-    padding: 0 18px;
-    background-color: orange;
+    padding: 10px 20px;
+    background-color: #ffffff;
     display: none; /* invisible until... */
     opacity: 0;
 }
