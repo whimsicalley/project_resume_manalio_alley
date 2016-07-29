@@ -10,6 +10,7 @@ html {
 
 body {
     background-color: #37bfc0;
+    font-family: "Raleway", sans-serif;
 }
 
 .visuallyhidden {
@@ -41,10 +42,28 @@ body {
 
 h1 {
     text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
 }
+
+h3 {
+    font-size: 1.6em;
+}
+
+/* For the rotating text in the header */
 
 .rotate {
     text-align: center;
+}
+
+.education h4,
+.skills h4,
+.work h4,
+.interest h4,
+.contact h4 {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: #f33d2d;
 }
 
 .contact {
@@ -75,12 +94,6 @@ h1 {
 .content.show {
     display: block; /* ...clicked on! */
     opacity: 1;
-}
-
-/********* SKILLS *********/
-
-.skills h4 {
-    text-align: center;
 }
 
 /********* SKILLS BARS *********/
