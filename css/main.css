@@ -124,13 +124,35 @@ header p {
 .education h4,
 .skills h4,
 .work h4,
-.interest h4,
+.interests h4,
 .contact h4 {
     font-size: 1.3em;
     text-transform: uppercase;
     color: #477869;
     font-weight: 600;
 }
+
+/********* INTERESTS *********/
+
+.small {
+    font-size: 0.7em;
+}
+
+.interests-img {
+    display: block;
+    max-width: 200px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+@media all and (min-width: 600px) {
+    .interests-img {
+        display: inline;
+        float: right;
+    }
+}
+
+/********* CONTACT *********/
 
 .contact {
     text-align: center;
