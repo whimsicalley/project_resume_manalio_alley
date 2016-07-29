@@ -11,6 +11,20 @@ html {
 body {
     background-color: #37bfc0;
     font-family: "Raleway", sans-serif;
+    line-height: 1.5;
+    padding: 2em;
+}
+
+@media all and (min-width: 600px) {
+    body {
+        padding: 5em;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    body {
+        padding: 2em;
+    }
 }
 
 .visuallyhidden {
@@ -26,37 +40,39 @@ body {
 
 .container {
     border-radius: 30px;
-    opacity: 0.95;
+    opacity: 0.9;
     background-color: #eaeaea;
-    max-width: 700px;
     width: 100%;
-    padding: 20px;
+    padding: 2em;
+    border: 3px solid white;
     margin: auto;
-    margin-top: 30px;
-    border: 6px solid white;
 }
 
-.circular-img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 150px;
-    box-shadow: 1px 3px 3px black;
-    border: 6px solid white;
-    width: 100%;
-    max-width: 275px;
+@media all and (min-width: 600px) {
+    .container {
+        opacity: 0.95;
+        border: 6px solid white;
+    }
 }
 
-header,
-footer {
-    padding: 20px;
+@media all and (min-width: 1000px) {
+    .container {
+        max-width: 600px;
+    }
 }
 
 h1 {
     color: #37bfc0;
     text-align: center;
     text-transform: uppercase;
-    font-size: 3em;
+    font-size: 2.5em;
     letter-spacing: 2px;
+}
+
+@media all and (min-width: 600px) {
+    h1 {
+        font-size: 3em;
+    }
 }
 
 h3 {
@@ -67,11 +83,43 @@ p {
     font-size: 1.1em;
 }
 
-/* For the rotating text in the header */
+/********* HEADER / FOOTER *********/
+
+header,
+footer {
+    padding: 20px;
+}
+
+header p {
+    padding-top: 15px;
+}
+
+.circular-img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 150px;
+    box-shadow: 1px 3px 3px black;
+    border: 3px solid white;
+    width: 100%;
+    max-width: 300px;
+}
+
+@media all and (min-width: 1000px) {
+    .circular-img {
+        display: inline;
+        float: left;
+        max-width: 200px;
+        border: 6px solid white;
+    }
+}
+
+/* For the rotating text in the footer */
 
 .rotate {
     text-align: center;
 }
+
+/********* RESUME SECTIONS *********/
 
 .education h4,
 .skills h4,
