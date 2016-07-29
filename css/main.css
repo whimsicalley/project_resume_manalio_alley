@@ -125,6 +125,8 @@ header p {
 
 .rotate {
     text-align: center;
+    font-size: 1.4em;
+    text-transform: lowercase;
 }
 
 /********* RESUME SECTIONS *********/
@@ -176,7 +178,7 @@ header p {
 
 .accordion {
     margin: 10px 0;
-    background-color: #eeeeee;
+    background-color: #f4f3f0;
     color: #37bfc0;
     padding: 18px;
     cursor: pointer;
@@ -184,7 +186,7 @@ header p {
 
 .accordion.active,
 .accordion:hover {
-    background-color: #d1d3d4;
+    background-color: #dadad7;
 }
 
 .content {
