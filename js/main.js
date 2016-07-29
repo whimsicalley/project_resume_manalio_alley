@@ -1,6 +1,6 @@
-//To make the accordion work, it adds the class "show" when the h3 heading is clicked
-
 $(document).ready(function () {
+
+    //To make the accordion work, this function adds the class "show" when the h3 headings are clicked
     var accordion = $('.accordion');
     var i;
 
@@ -10,13 +10,15 @@ $(document).ready(function () {
             this.nextElementSibling.classList.toggle('show');
         };
     }
-});
 
-//jQuery plugin code for Simple Text Rotator
-$(document).ready(function () {
+    //jQuery plugin code for Simple Text Rotator
     $('.rotate').textrotator({
         animation: 'fade',
         separator: ',',
         speed: 1500
     });
+
+    //jQuery plugin code for backstretch
+    $.backstretch('img/mountain-bg.jpeg');
+
 });
