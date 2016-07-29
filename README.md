@@ -38,3 +38,5 @@ Live Project
 1. Okay, I'm starting to think my make-believe web designer license needs to be revoked because it took me about five hours to figure out how to make a simple accordion. x_x I looked for *hours* for a nice jQuery accordion plugin, but unfortunately, all of the ones (no fewer than seven) I liked and tried to implement wouldn't work no matter what I tried. So, I hope you don't mind this simple one.
 
 2. Something that really bugs me is how the accordion opens. I tried a number of times to change "toggle" in the main.js to toggleFade, etc only to have the console give me error messages. I also tried to add a keyframe animation to it, and even though that *would* have worked, unfortunately it would also not allow the skills bar to properly animate.
+
+3. My custom jQuery is in the contacts section. When you click the "Let's be Friends" header, a paragraph tag appears thanking you for stopping by.
