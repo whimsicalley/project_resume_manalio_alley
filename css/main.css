@@ -30,14 +30,23 @@ body {
     width: 100%;
     padding: 20px;
     margin: auto;
+    border-left: 6px solid white;
+    border-right: 6px solid white;
+    border-bottom: 6px solid white;
 }
 
 .circular-img {
+    display: block;
+    margin: 0 auto;
     border-radius: 150px;
+    box-shadow: 1px 3px 3px black;
+    border: 6px solid white;
+    width: 100%;
+    max-width: 275px;
 }
 
-.right {
-    float: right;
+header, footer {
+    padding: 20px;
 }
 
 h1 {
@@ -48,6 +57,10 @@ h1 {
 
 h3 {
     font-size: 1.6em;
+}
+
+p {
+    font-size: 1.1em;
 }
 
 /* For the rotating text in the header */
@@ -72,7 +85,14 @@ h3 {
 
 /********* ACCORDION *********/
 
+/* Floats the icons to the right in the accordion */
+
+.right {
+    float: right;
+}
+
 .accordion {
+    margin: 10px 0;
     background-color: #eeeeee;
     color: #444444;
     padding: 18px;
