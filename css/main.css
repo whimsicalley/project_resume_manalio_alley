@@ -203,7 +203,7 @@ header p {
 
 #skill-html {
     animation: animate-html 6s;
-    background-color: green;
+    background-color: #a2b8c7;
     width: 95%;
 }
 
@@ -218,7 +218,7 @@ header p {
 
 #skill-css {
     animation: animate-css 6s;
-    background-color: red;
+    background-color: #7ca8c8;
     width: 87%;
 }
 
@@ -233,7 +233,7 @@ header p {
 
 #skill-javascript {
     animation: animate-javascript 6s;
-    background-color: blue;
+    background-color: #4f6c6f;
     width: 75%;
 }
 
@@ -248,7 +248,7 @@ header p {
 
 #skill-jquery {
     animation: animate-jquery 6s;
-    background-color: orange;
+    background-color: #4593c5;
     width: 72%;
 }
 
@@ -263,7 +263,7 @@ header p {
 
 #skill-wordpress {
     animation: animate-wordpress 6s;
-    background-color: purple;
+    background-color: #27405c;
     width: 70%;
 }
 
@@ -278,7 +278,7 @@ header p {
 
 #skill-photoshop {
     animation: animate-photoshop 6s;
-    background-color: purple;
+    background-color: #6b94b2;
     width: 85%;
 }
 
@@ -293,7 +293,7 @@ header p {
 
 #skill-indesign {
     animation: animate-indesign 6s;
-    background-color: purple;
+    background-color: #1f648a;
     width: 70%;
 }
 
@@ -308,7 +308,7 @@ header p {
 
 #skill-illustrator {
     animation: animate-illustrator 6s;
-    background-color: purple;
+    background-color: #325063;
     width: 80%;
 }
 
