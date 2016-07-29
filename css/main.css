@@ -83,6 +83,14 @@ p {
     font-size: 1.1em;
 }
 
+a {
+    color: #37bfc0;
+}
+
+a:hover {
+    color: #1f648a;
+}
+
 /********* HEADER / FOOTER *********/
 
 header,
